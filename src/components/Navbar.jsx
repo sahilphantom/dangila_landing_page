@@ -18,11 +18,11 @@ const Navbar = () => {
   return (
     <nav
       className={cn(
-        "fixed top-0 left-0 right-0 z-50 px-4 sm:px-8 py-4 transition-all duration-300",
-        scrolled ? "bg-[#f3d9c6] shadow-md" : "bg-transparent",
+        "fixed  top-0 left-0 right-0 z-50 px-4 sm:px-8 py-4 transition-all duration-300",
+        scrolled ? "bg-[#f3d9c6]  shadow-md" : "bg-transparent",
       )}
     >
-      <div className="flex  items-center justify-between">
+      <div className="flex w-[90%] m-auto  items-center justify-between">
         <a href="/" className="text-[#8B4513] text-xl font-medium">
           dangila™
         </a>
@@ -63,7 +63,7 @@ const Navbar = () => {
           isOpen ? "max-h-screen" : "max-h-0",
         )}
       >
-        <div className="px-4 py-2 space-y-2">
+        <div className="px-6 py-2 space-y-2">
           <a href="#products" className="block text-[#8B4513] hover:underline py-2">
             Products
           </a>
