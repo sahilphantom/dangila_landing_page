@@ -71,7 +71,7 @@ const Footer = () => {
           {/* Column 4 - Newsletter */}
           <div className="space-y-4">
             <p className="text-gray-700">Receive special offers and get our latest updates.</p>
-            <form onSubmit={handleSubmit} className="flex gap-2">
+            <form onSubmit={handleSubmit} className="flex flex-col gap-2 sm:flex sm:flex-row">
               <input
                 type="email"
                 value={email}

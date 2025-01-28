@@ -31,7 +31,7 @@ const NewsLetter = () => {
 
             <p className="text-gray-600">Enter your email below for daily updates</p>
 
-            <form onSubmit={handleSubmit} className="flex flex-col pt-4 sm:flex-row gap-4">
+            <form onSubmit={handleSubmit} className="  flex flex-col pt-4 sm:flex-row gap-4">
               <input
                 type="email"
                 value={email}
@@ -43,7 +43,7 @@ const NewsLetter = () => {
 
               <button
                 type="submit"
-                className="px-8 py-3 bg-[#A6633C] text-white rounded-full hover:bg-[#8B5232] transition-colors whitespace-nowrap"
+                className="px-8 py-3 bg-[#A6633C] text-white rounded-full  hover:bg-[#8B5232] transition-colors whitespace-nowrap"
               >
                 GET STARTED
               </button>
