@@ -5,7 +5,7 @@ import Stats from "./components/Stats"
 import Why from "./components/Why"
 import Products from "./components/Products"
 import About from "./components/About"
-import Company from "./components/company"
+import Company from "./components/Company"
 import NewsLetter from "./components/NewsLetter"
 import Footer from "./components/Footer"
 
