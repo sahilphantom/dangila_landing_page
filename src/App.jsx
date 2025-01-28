@@ -6,6 +6,8 @@ import Why from "./components/Why"
 import Products from "./components/Products"
 import About from "./components/About"
 import Company from "./components/company"
+import NewsLetter from "./components/NewsLetter"
+import Footer from "./components/Footer"
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
       <Products />
       <About />
       <Company />
+      <NewsLetter />
+      <Footer />
     </div>
   )
 }

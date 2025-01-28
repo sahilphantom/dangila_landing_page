@@ -32,9 +32,9 @@ const Why = () => {
   ]
 
   return (
-    <section className="bg-[#f1decf] py-20 px-4 sm:px-8">
+    <section className="bg-[#fae4cb] py-20 px-4 sm:px-8">
       <div className="max-w-7xl w-[80%] mx-auto">
-        <h2 className="text-4xl sm:text-5xl font-light text-center text-[#8B4513] mb-4">WHY DANGILA?</h2>
+        <h2 className="text-4xl sm:text-5xl font-medium text-center text-[#8B4513] mb-4">WHY DANGILA?</h2>
         <p className="text-center text-[#8B4513]/80 mb-16 max-w-2xl mx-auto">
           Yourself required no at thoughts delicate landlord it be. Branched dashwood do<br /> is whatever it. Farther be
           chapter at visited married in it pressed.
